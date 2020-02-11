@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>
+            Calculator
+        </title>
+        
+    </head>
+    <body>
+        <div>
+            <label>Enter first number : </label><input type="number" name="firstNumber" id="firstNumber">
+        </div>
+        <div>
+            <label>Enter second number : </label><input type="number" name="secondNumber" id="secondNumber">
+        </div>
+        <div>
+            <label>Addition    :</label><span id="additionResult"></span>
+        </div>
+        <div>
+            <label>Substraction  :</label><span id="substractionResult"></span>
+        </div>
+        <div>
+            <label>Multiplication  :</label><span id="multiplicationResult"></span>
+        </div>
+        <div>
+            <label>Division    :</label><span id="divisionResult"></span>
+        </div>
+        <div>
+            <input type="button" value="Addition" id="addition" onclick="addition()">
+            <input type="button" value="Substraction" id="substraction" onclick="substraction()">
+            <input type="button" value="Multiplication" id="multiplication" onclick="multiplication()">
+            <input type="button" value="Division" id="division" onclick="division()">
+        </div>
+        <script src="calculatorJs.js"></script>
+    </body>
+</html>

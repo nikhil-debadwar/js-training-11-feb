@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>
+            Registration Form
+        </title>
+        <link rel='stylesheet' type='text/css' href='style.css'>
+        <script src="registrationFormJs.js"></script>
+    </head>
+    <body>
+        <div>
+            <h1>Registration Form</h1>
+        </div>
+        <form name="registrationForm" onsubmit="return validator();">
+            <section>
+                <div class="form-div">
+                    <div class="email-div">
+                        <p>Email* : </p>
+                        <input type="text" name="email">
+                    </div>
+                    <div class="email-div">
+                        <p>Password* : </p>
+                        <input type="text" name="password">
+                    </div>
+                    <div class="email-div">
+                        <p>Confirm Password* : </p>
+                        <input type="text" name="cnfmPassword">
+                    </div>
+                    <div class="email-div">
+                        <p>First Name* : </p>
+                        <input type="text" name="firstName">
+                    </div>
+                    <div class="email-div">
+                        <p>Last Name* : </p>
+                        <input type="text" name="lastName">
+                    </div>
+                    <div class="email-div">
+                        <p>Zipcode(Optional) : </p>
+                        <input type="text" name="zipcode">
+                    </div>
+                    <div class="submit-button-div">
+                        <input type="submit" value="Submit" class="submit-btn" name="submit">
+                    </div>
+                </div>
+            </section>
+        </form>
+    </body>
+</html>
